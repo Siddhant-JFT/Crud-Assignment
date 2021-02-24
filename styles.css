@@ -1,5 +1,8 @@
+h4{
+    padding-top: 10px;
+}
 body{
-    background-color: #15202b  !important;
+    background-color: #111113  !important;
     color: azure !important;
 }
 
@@ -12,15 +15,14 @@ body{
     justify-content: center;
 }
 .topbox{
-    background-color: #2b3b49;
+    background-color: #212529;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 6px;
-    padding: 6px;
 }
 .modal-content{
-    background: #2b3b49  !important;
+   background: #212529  !important;
 }
 input{
     outline:none;
@@ -49,7 +51,7 @@ input{
 }
 
 .mainb{
-    background-color: #2b3b49;
+    background-color: #212529;
     padding:4%;
     width: 95%;
     margin: auto;
@@ -60,8 +62,8 @@ input{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #2b3b49;
+    background-color: #212529;
     color: azure;
     text-align: center;
-    font-size: 1.25rem
+    font-size: 1.25rem;   
 }
