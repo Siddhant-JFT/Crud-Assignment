@@ -135,18 +135,18 @@ function ToEdit(id) {
     document.getElementById("edwebs").value = data[ind].website;
 }
 function editData() {
-    data[ind].name =document.getElementById("edname").value ;
-    data[ind].username= document.getElementById("eduname").value;
-    data[ind].website =document.getElementById("edwebs").value ;
+    data[ind].name = document.getElementById("edname").value;
+    data[ind].username = document.getElementById("eduname").value;
+    data[ind].website = document.getElementById("edwebs").value;
     toAdd();
 }
 
 function DeleteData() {
-    
+
     id = document.getElementById('delitem').value;
     data = data.filter(d => d.id != id);
     --counter;
-    
+
     toAdd();
 }
 
